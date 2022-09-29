@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador y desencriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" 
+        rel="stylesheet">
+    </head>
+
+    <header>
+        <h2 class="titulo"> Encriptador y desencriptador </h2>
+    </header>
+
+    <body>
+        <section class="pantalla-dividida"> 
+           <div class="izquierda">
+                <form id="formulario_encriptar">
+                        <h5>Introduce una frase o palabra sin mayusculas ni acentos</h5>
+                        <textarea cols="120" rows="10" id="textoProcesar" class="inputE" placeholder="textoProcesar" required></textarea>
+                        <br>
+                        <br>
+                        <button type="buttom" onclick="encriptar();" class="encriptar">encriptar</button>        
+                </form>
+            </div>
+            <div class="derecha">
+                <form id="formulario_desencriptar">
+                    <h5>Presione el botón desencriptar para ver la frase original</h5>
+                    <textarea cols="120" rows="10" id="resultado" class="inputD" placeholder="Aqui aparece el texto procesado" required></textarea>
+                    <br>
+                    <br>
+                    <button type="button" onclick="desencriptar();" class="desencriptar">desencriptar</button>
+                    <button type="button" onclick="copiarPapelera();" class="copiar">copiar</button>    
+                </form>                
+            </div>
+        </section>
+    </body> 
+
+    <script src="instrucciones.js"> </script>
+
+<footer>
+    <p class="copyright">&copy Copyright Jaime Eduardo Botero Gómez - 2022</p>
+</footer>

@@ -1,0 +1,103 @@
+body{
+    margin: 10;
+    padding: 10;
+    font-family:'monserrat';
+}
+
+.inputE{
+    text-align: center;
+    width: 400px;
+    padding: 5px;
+    border: none;
+}
+
+
+.inputD{
+    text-align: center;
+    width: 400px;
+    padding: 5px;
+    border: none;
+}
+
+
+.pantalla-dividida{
+    display: flex;
+    flex-direction: row;
+    width: 640;
+    margin: 0 auto;
+}
+
+.izquierda{
+    background: #d9dfbd;
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+}
+
+.derecha{
+    background: #cec4c4;
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+}
+
+.encriptar{
+    padding: 8px 0;
+    width: 80px;
+    font-size: 12PX;
+    color: #ffffff;
+    background: rgb(3, 3, 84);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    background: rgb(106, 53, 241);
+    transform: scale(1.10);
+}
+
+.desencriptar{
+    padding: 8px 0;
+    width: 80px;
+    font-size: 12PX;
+    color: #ffffff;
+    background: rgb(32, 8, 246);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    background: rgb(112, 98, 185);
+    transform: scale(1.10);
+}
+
+.copiar{
+    padding: 8px 0;
+    width: 80px;
+    font-size: 12PX;
+    color: #ffffff;
+    background: rgb(3, 14, 55);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.copiar:hover{
+    background: rgb(21, 5, 144);
+    transform: scale(1.10);
+}
+
+.copyright{
+    text-align: center;
+    color: #0b0000;
+    font-size: 13px;
+}
+
