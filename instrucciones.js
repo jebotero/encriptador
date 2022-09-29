@@ -8,7 +8,7 @@
 		    var esValido = !nonLowercaseLetters.test(cadena);
             //Si no es valido
                 if(!esValido){
-                    alert("Texto no valido");
+                    alert("Texto no valido, debe contener solamente letras minusculas o espacios, pero no otro tipo de caracteres ni letras con acento");
                 }	
                 else {//si es valido
                 var cadenae = cadena.replaceAll("e","enter");
