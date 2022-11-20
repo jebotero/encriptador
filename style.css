@@ -1,7 +1,7 @@
 body{
     margin: 10;
     padding: 10;
-    font-family:'monserrat';
+    font-family:''Arial, Helvetica, sans-serif;
 }
 
 .titulo {
@@ -39,25 +39,25 @@ body{
 .pantalla-dividida{
     display: flex;
     flex-direction: row;
-    width: 450;
+    width: 400px;
     margin: 0 auto;
 }
 
 .izquierda{
     background: #cccff8;
     width: 40%;
-    height: 60vh;
+    height: 300px;
     text-align: center;
 }
 
 .derecha{
     background: #a7d7e7;
     width: 40%;
-    height: 60vh;
+    height: 300px;
     text-align: center;
 }
 
-.encriptar{
+.encriptar {
     padding: 8px 0;
     width: 80px;
     font-size: 12PX;
@@ -70,7 +70,7 @@ body{
     cursor: pointer;
 }
 
-.encriptar:hover{
+.encriptar:hover {
     background: rgb(106, 53, 241);
     transform: scale(1.10);
 }
