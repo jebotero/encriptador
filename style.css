@@ -17,8 +17,8 @@ body{
 
 .inputE{
     text-align: center;
-    width: 400px;
-    height: 200px;
+    width: 40%;
+    height: 30vh;
     padding: 5px;
     border: none;
 }
@@ -29,17 +29,16 @@ body{
 
 .inputD {
     text-align: center;
-    width: 400px;
-    height: 200px;
+    width: 40%px;
+    height: 30vh;
     padding: 5px;
     border: none;
 }
 
-
 .pantalla-dividida{
     display: flex;
     flex-direction: row;
-    width: 400px;
+    width: 940px;
     margin: 0 auto;
 }
 
