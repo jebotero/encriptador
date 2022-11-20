@@ -37,20 +37,20 @@ body{
 .pantalla-dividida{
     display: flex;
     flex-direction: row;
-    width: 640;
+    width: 450;
     margin: 0 auto;
 }
 
 .izquierda{
     background: #cccff8;
-    width: 50%;
+    width: 40%;
     height: 60vh;
     text-align: center;
 }
 
 .derecha{
     background: #a7d7e7;
-    width: 50%;
+    width: 40%;
     height: 60vh;
     text-align: center;
 }
